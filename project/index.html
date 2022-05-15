@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" media="all" rel="stylesheet" />
+    <link href="css/style.css" media="all" rel="stylesheet" />
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="e-shop-icon.ico" />
+    <title>E Shop &#45; Online Shopping</title>
+</head>
+
+<body>
+    <div id="page" class="container">
+        <header>
+            <div id="header" class="row">
+                <div id="logo" class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                </div>
+                <div id="curr" class="col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-1 hidden-xs border">
+                    <form action="#" method=""> <span class="bold">Currency:</span>
+                        <br />
+                        <select id="currency" name="Currency">
+                            <option value="us-dollar">US Dollar</option>
+                        </select>
+                    </form>
+                </div>
+                <div id="lang" class="col-md-2 col-sm-3 hidden-xs border">
+                    <div>
+                        <p class="bold">Language:</p>
+                        <ul id="header-lang-nav" class="float">
+                            <li>
+                                <a href=""><img src="images/flags/flag_01.png" alt="flag1"></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="images/flags/flag_02.png" alt="flag2"></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="images/flags/flag_03.png" alt="flag3"></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="images/flags/flag_04.png" alt="flag4"></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="images/flags/flag_05.png" alt="flag5"></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="images/flags/flag_06.png" alt="flag6"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="header-cart" class="col-md-2 col-md-offset-0 col-sm-2 hidden-xs border">
+                    <div class="float"> <img src="images/shopingCart.png" alt="shoping-cart" />
+                        <p class="bold">Shoping Cart
+                            <br> <span class="blue">0</span> <span class="normal">items</span> </p>
+                    </div>
+                </div>
+            </div>
+            <nav id="header-nav" class="container navbar-default navbar-static-top">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New Products</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Shopping Chart</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">RSS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <div id="content" class="container">
+           
+            <aside id="left" class="col-md-2 col-sm-2 hidden-xs">
+                <div id="menu" class="row"> <span class="heading">Categories</span>
+                    <ul class="list-style">
+                        <li><a href="#">Dolor sit amet</a></li>
+                        <li><a href="#">Consetetur sadipscing</a></li>
+                        <li><a href="#">Seddiam</a></li>
+                        <li><a href="#">Nonumy eirmod</a></li>
+                        <li><a href="#">Dolor sit amet</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Dolor sit amet</a></li>
+                        <li><a href="#">Seddiam</a></li>
+                        <li><a href="#">Nonumy eirmod</a></li>
+                        <li><a href="#">Consetetur sadipscing</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Nonumy eirmod</a></li>
+                        <li><a href="#">Dolor sit amet</a></li>
+                        <li><a href="#">Seddiam</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Nonumy eirmod</a></li>
+                        <li><a href="#">Seddiam</a></li>
+                        <li><a href="#">Consetetur sadipscing</a></li>
+                        <li><a href="#">Nonumy eirmod</a></li>
+                        <li><a href="#">Dolor sit amet</a></li>
+                        <li><a href="#">Seddiam</a></li>
+                        <li><a href="#">Nonumy eirmod</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Dolor sit amet</a></li>
+                        <li><a href="#">Seddiam</a></li>
+                    </ul>
+                </div>
+                <div id="support" class="row">
+                    <a href="#"><img src="images/support.png" alt="life-support" /></a>
+                </div>
+            </aside>
+            
+            <section id="article-area" class="col-md-7 col-sm-10 col-xs-12">
+                <div id="feature-img" class="row hidden-xs">
+                    <div class="col-md-12 col-sm-12">
+                        <a href="#"><img src="images/newModels.png" alt="feature image"></a>
+                    </div>
+                </div>
+                <div id="about-us" class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12"> <span class="heading">About E Shop</span>
+                        <p>Dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor. invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur </p>
+                    </div>
+                </div>
+                <div id="product-list">
+                    <div class="row"> <span class="new heading">New Products</span> </div>
+                    <div class="row">
+                        <div class="article col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <img src="images/products/product1.png" alt="product"> <a href="#" class="name">Name Product</a>
+                            <br> <span class="price">$250</span>
+                            <br>
+                            <div>
+                                <a href="#"><img src="images/zoom.png" alt="zoom btn"></a>
+                                <a href="#"><img src="images/addToCart.png" alt="add to cart"></a>
+                            </div>
+                        </div>
+                        <div class="article col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <img src="images/products/product2.png" alt="product"> <a href="#" class="name">Name Product</a>
+                            <br> <span class="price">$850</span>
+                            <div>
+                                <a href="#"><img src="images/zoom.png" alt="zoom btn"></a>
+                                <a href="#"><img src="images/addToCart.png" alt="add to cart"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="article  col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <img src="images/products/product3.png" alt="product"> <a href="#" class="name">Name Product</a>
+                            <br> <span class="price">$400</span>
+                            <div>
+                                <a href="#"><img src="images/zoom.png" alt="zoom btn"></a>
+                                <a href="#"><img src="images/addToCart.png" alt="add to cart"></a>
+                            </div>
+                        </div>
+                        <div class="article col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <img src="images/products/product4.png" alt="product"> <a href="#" class="name">Name Product</a>
+                            <br> <span class="price">$350</span>
+                            <div>
+                                <a href="#"><img src="images/zoom.png" alt="zoom btn"></a>
+                                <a href="#"><img src="images/addToCart.png" alt="add to cart"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="article col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <img src="images/products/product5.png" alt="product"> <a href="#" class="name">Name Product</a>
+                            <br> <span class="price">$250</span>
+                            <div>
+                                <a href="#"><img src="images/zoom.png" alt="zoom btn"></a>
+                                <a href="#"><img src="images/addToCart.png" alt="add to cart"></a>
+                            </div>
+                        </div>
+                        <div class="article col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <img src="images/products/product6.png" alt="product"> <a href="#" class="name">Name Product</a>
+                            <br> <span class="price">$2250</span>
+                            <div>
+                                <a href="#"><img src="images/zoom.png" alt="zoom btn"></a>
+                                <a href="#"><img src="images/addToCart.png" alt="add to cart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <aside id="right" class="col-md-3 col-md-offset-0 hidden-sm col-xs-8 col-xs-offset-2">
+                <div id="surprise" class="row hidden-xs">
+                    <a href="#"><img src="images/surprise.png" alt="surprise"></a> <span class="heading">Entry</span> </div>
+                <div id="login-form" class="row border">
+                    <form action="#" method="post">
+                        <div>
+                            <label class="bold">Login:</label>
+                            <input type="text" name="UserName"> </div>
+                        <div>
+                            <label class="bold">Password:</label>
+                            <input type="password" name="password"> </div>
+                        <div> <a href="#">Registration</a> <a href="#">Forget Password</a> </div>
+                        <div class="text-center">
+                            <input type="submit" value="Enter" class="btn btn-md"> </div>
+                    </form>
+                </div>
+                <div id="letest-news" class="row border"> <span class="heading">Letest news</span>
+                    <button type="button" class="btn">23 november</button>
+                    <p>Dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor. invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua</p> <a href="#">read more</a> </div>
+            </aside>
+            
+        </div>
+        
+        <footer>
+            <nav class="navbar-nav">
+                <div class="container">
+                    <ul class="nav nav-pills">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New Products</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Shopping Chart</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#" class="blue">Privacy Policy</a></li>
+                        <li><a href="#" class="blue">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="clearfix"></div>
+            <div class="container">
+                <div id="copyrights" class="row text-center">
+                    <p>Copyrights &copy;. All rights reserved. Designed by <a href="#">ZN94</a></p>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+</body>
+
+</html>

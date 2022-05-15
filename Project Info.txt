@@ -1,0 +1,24 @@
+Name: Zubair Mahboob
+Father Name: Mahboob ul Hassan
+Course Batch: PHP & MySQL 302
+
+
+=======================
+Database Information:
+=======================
+Host: localhost
+User: root
+Password: 
+Database Name: php302
+
+==========================
+Admin Panel Login Details
+==========================
+Username: zubair.niazi94@gmail.com
+Password: zubair
+
+=======================
+User Login Details
+=======================
+Username: zn12345
+Password: zn12345

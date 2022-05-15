@@ -1,0 +1,523 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+.clearfix {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/*****************************************/
+/*******    REUSABLE COMPONENT   *********/
+/*****************************************/
+
+.border {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 20px 0 #dad7d7;
+    box-shadow: inset 0 0 10px 0 #dad7d7;
+    /*    border: 1px solid #ccc;
+        border-radius: 5px;*/
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.float-right {
+    float: right;
+}
+
+.float > li,
+.float > img {
+    float: left;
+}
+
+.list-style li:nth-of-type(2n+1),
+#form-container .row:nth-of-type(2n+1),
+#product-details li:nth-of-type(2n+1) {
+    background-color: #ebebeb;
+}
+
+
+/*****************************************/
+/*********   FONT STYLING   **************/
+/*****************************************/
+
+body {
+    font-family: Tahoma, sans-serif, monospace;
+    font-size: 13px;
+    background-color: #e5e5e5;
+}
+
+.blue {
+    color: #3288a2;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 160%;
+    font-weight: normal;
+    padding: 5px 3px;
+    display: block;
+}
+
+.name {
+    text-decoration: underline;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #4a4a4a;
+}
+
+.name:hover {
+    text-decoration: none;
+}
+
+.name,
+.price {
+    font-size: 110%;
+    font-weight: bold;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.price {
+    color: #e27c0e;
+}
+.product-price {
+    margin-top: 5%;
+}
+
+/*****************************************/
+/***************   Page   ****************/
+/*****************************************/
+
+#page {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #5b5b5b;
+    background-color: #fff;
+}
+
+/*****************************************/
+/*********      Header      **************/
+/*****************************************/
+
+header {
+    /*margin-bottom: 10px;*/
+    padding: 0px 10px;
+}
+
+#header {
+    margin-bottom: 10px;
+    padding-right: 15px;
+}
+
+#logo > a > img {
+    margin-top: 4%;
+    width: 150px;
+    height: 52px;
+}
+
+#curr select,
+#lang select {
+    width: 70%;
+}
+
+#curr,
+#lang,
+#header-cart,
+#head-login {
+    padding: 1.5% 2%;
+}
+
+#lang {
+    padding: 1.28% 2%;
+}
+
+#lang p {
+    margin-bottom: 1.5px;
+}
+
+#head-login {
+    padding: 2.95% 2%;
+}
+
+#header-cart img {
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+#header-cart p {
+    margin: 0;
+}
+/*********      NAVIGATION   *************/
+#header-nav ul li {
+    border-right: 1px solid #bcbcbc;
+}
+#header-nav ul li:first-of-type {
+    background-color: #a7d8f0;
+}
+
+#header-nav ul li:last-of-type {
+    /*border: 0;*/
+    /*background-color: rgba(255, 102, 0, 0.78);*/
+}
+#header-nav ul li:last-of-type a{
+    /*color: #fff;*/
+}
+#header-nav ul li a:hover {
+    background-color: #dad7d7;
+}
+#header-nav ul li:first-of-type a:hover {
+    /*background-color: #77b0d9;*/
+    /*color: #fff;*/
+}
+#header-nav ul li:last-of-type a:hover {
+    /*background-color: #fd5700;*/
+}
+/*****************************************/
+/*********      Content      *************/
+/*****************************************/
+#content {
+    padding: 0 10px;
+}
+
+/*****************************************/
+/*********      Left Aside   *************/
+/*****************************************/
+
+aside#left {
+    /*margin-top: 1%;*/
+
+}
+
+aside #menu {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+aside#left li {
+    padding-left: 5%;
+    line-height: 180%;
+}
+
+aside#left li a {
+    color: #565656;
+}
+
+#support img {
+    width: 100%;
+}
+
+/*****************************************/
+/*********      Section      *************/
+/*****************************************/
+
+.carousel-img {
+    width: 100%;
+}
+
+#product-list .row {
+    margin-bottom: 4%;
+    padding-right: 4%;
+}
+
+span.new {
+    margin-left: 2%;
+    border-bottom: 2px solid #bababa;
+    padding-bottom: 1%;
+}
+
+.article > img {
+    /*width: 40%;*/
+    float: left;
+    display: block;
+}
+
+.article div {
+    margin-top: 5%;
+}
+
+.article div img {
+    float: left;
+}
+/* this styling applying into contact us page */
+#contact-timing{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*  for contact-us page */
+#contact-form{
+    margin-top: 40px;
+}
+
+/*********      Products Portion   *************/
+
+#addCart {
+    color: #e27c0e;
+    font-size: 15px;
+}
+
+#product-comments {
+    color: #0283dd;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#product-padding .name,
+#product-padding .col-md-9 {
+    padding-left: 0px !important;
+    margin-left:  0px !important;
+}
+
+#product-padding ul {
+    margin-bottom: 20px;
+}
+
+#product-padding li {
+    padding: 3px 5px;
+}
+
+#product-padding p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/*****************************************/
+/*********      RIGHT SIDE   *************/
+/*****************************************/
+
+#surprise img {
+    width: 100%;
+}
+
+#login-form {
+    padding: 10% 15%;
+}
+
+#login-form form {
+    text-align: right;
+}
+
+#login-form form input {
+    margin-bottom: 2%;
+}
+#login-form form input[type=text],
+#login-form form input[type=password] {
+    width: 60%;
+}
+#login-form form label {
+    padding-right: 1%;
+}
+
+#login-form a {
+    text-decoration: underline;
+    margin-top: 5%;
+    padding: 0 5%;
+    display: inline-block;
+    color: #0283dd;
+}
+
+#login-form a:hover {
+    text-decoration: none;
+}
+
+#login-form a:first-of-type {
+    border-right: 1px solid #5b5b5b;
+}
+
+#login-form input[type=submit] {
+    margin-top: 10px;
+}
+
+
+/*********   NEWS PORTION  ************/
+
+#letest-news {
+    margin-top: 1%;
+    padding: 5% 8%;
+}
+
+#letest-news p {
+    margin: 5% 0;
+    padding: 1%;
+}
+
+#letest-news a {
+    text-decoration: underline;
+    margin-top: 5%;
+    color: #0283dd;
+}
+
+#letest-news a:hover {
+    text-decoration: none;
+}
+
+/*****************************************/
+/*********       FOOTER     **************/
+/*****************************************/
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #bababa;
+}
+
+footer ul {
+    /*text-align: center;*/
+    display: inline-block;
+    margin-top: 5px;
+}
+
+footer ul li {
+    border-right: 1px solid #bcbcbc;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #323232;
+}
+
+footer li:last-of-type {
+    border-right: 0;
+}
+#copyrights {
+    margin: 1% 0;
+}
+#copyrights a {
+    text-decoration: underline;
+    color: #8e190b;
+}
+
+#copyrights a:hover {
+    text-decoration: none;
+}
+
+/**********************************************************/
+/*****************   Form Style      **********************/
+/**********************************************************/
+#form-container{
+    font-size: 130%;
+    width:100%;
+    margin-left: 2%;
+    height:auto;
+    position:relative;
+}
+
+#form-container .row{
+    width:100%;
+    height:auto;
+    line-height: 20px;
+    position:relative;
+}
+
+#heading-row{
+    font-size:36px;
+    text-align:center;	
+}
+
+#form-container .cell-left{
+    width:40%;	
+}
+
+#form-container .cell-right{
+    width:60%;	
+}
+
+#form-container .cell{
+    height:auto;
+    position:relative;
+    float:left;
+}
+
+#form-container .cell a{
+    /*color: white;*/
+    font-weight: bold;
+}
+
+#form-container .clear-box{
+    clear:both;	
+}
+
+/**********************************************************/
+/*****************   Media Queries   **********************/
+/**********************************************************/
+
+@media(max-width: 1200px) {
+
+}
+
+@media(max-width: 991px) {
+
+    #header-cart {
+        padding-left: 5%;
+    }
+    #header-cart {
+        padding: 1.6% 1.5%;
+    }
+    #shopping-cart img {
+        width: 100%;
+    }
+    footer ul {
+        margin-left: 0;
+    }
+    footer .nav > li > a {
+        padding: 8px 7px;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 990px) {
+    #surprise img {
+        width: 100%;
+    }
+    #login-form {
+        padding: 15% 15% 10% 5%;
+    }
+
+    #login-form form input {
+        margin-bottom: 5%;
+    }
+    #login-form form input[type=text],
+    #login-form form input[type=password] {
+        width: 60%;
+        height: 22px;
+    }
+    #login-form form input[type=submit] {
+        margin-left: 15%;
+    }
+    #login-form form label {
+        padding-right: 2%;
+    }
+
+    #login-form a {
+        margin: 4% 0;
+        padding: 0 2%;
+    }
+
+    .article {
+        padding: 2%;
+    }
+}
+
+@media(max-width: 500px) {
+    footer #copyrights {
+        margin: 30px 0;
+    }
+}
